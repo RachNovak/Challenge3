@@ -88,4 +88,4 @@ print(analysis)#confirm that all data results make sense and match functions
 #put summary into text file.
 Summary=open("pybank.txt","w") #create and open textfile
 Summary.writelines(analysis) #write summary into text file
-Summary.close
+Summary.close#close file

@@ -88,9 +88,9 @@ Total Votes: {votecount}\n\
 ----------------------------\n\
 Winner: {winner}\n\
 ----------------------------\n'
-print(analysis)
+print(analysis)#confirm that all data results make sense and are displayed as deisred
 
 
-file2=open("pypoll.txt","w")
-file2.writelines(analysis)
-file2.close()
+file2=open("pypoll.txt","w") #create file
+file2.writelines(analysis) #write file with analysis report summary
+file2.close() #close file
